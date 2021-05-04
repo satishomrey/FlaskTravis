@@ -13,4 +13,4 @@ def test_hello_world():
     result = app.hello_world()
     expected_result = 'Hello, World! Atin'
 
-    assert expected_result == result
+    assert expected_result in result
